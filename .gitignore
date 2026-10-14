@@ -1,0 +1,21 @@
+# secrets and local state
+.env
+.spend/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# private working notes
+CLAUDE.md
+PLAN.md
+notes/
+
+# files saved by the Claude app
+Claude outputs/
+*.zip
+
+# local run output
+/work/
